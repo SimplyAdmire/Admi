@@ -1,0 +1,16 @@
+!/Build/
+/Build/*
+!/Build/Environment/
+
+application/language/*
+!application/language/gr/
+
+/Configuration/
+/Data/
+/Packages/
+/Web/
+/bin/
+/Readme.rst
+/Upgrading.rst
+/flow
+/flow.bat
