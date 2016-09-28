@@ -4,6 +4,10 @@ services:
   webserver:
     volumes:
       - "./../app/:/var/www/"
+    environment:
+      VIRTUAL_HOST: "admi.docker"
+      VIRTUAL_PORT: 80
+    ports: [80]
   php:
     volumes:
       - "./Docker/php/ssmtp.conf:/etc/ssmtp/ssmtp.conf"
