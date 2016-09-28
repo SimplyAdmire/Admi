@@ -5,7 +5,10 @@
 application/language/*
 !application/language/gr/
 
-/Configuration/
+!/Configuration/
+/Configuration/*
+!/Configuration/Routes.yaml
+
 /Data/
 /Packages/
 /Web/
