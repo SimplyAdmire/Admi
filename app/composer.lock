@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "2a85401d8be02b02abb03889af37ee50",
-    "content-hash": "41463c21bafbe3ba12171eb67797b299",
+    "hash": "e02dcf583f2fd04266c6fb5d7d09ca94",
+    "content-hash": "0c3ccf856a480f1ea5b6d418e4668ce9",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -707,6 +707,37 @@
             ],
             "description": "Flow Composer Plugin",
             "time": "2016-05-05 07:03:52"
+        },
+        {
+            "name": "neos/cqrs",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/neos/Neos.Cqrs.git",
+                "reference": "5fa48a261f79d9ad11f12418c3f984a07756479d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/neos/Neos.Cqrs/zipball/5fa48a261f79d9ad11f12418c3f984a07756479d",
+                "reference": "5fa48a261f79d9ad11f12418c3f984a07756479d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0.1",
+                "typo3/flow": ">=2.3"
+            },
+            "suggest": {
+                "php-uuid": "For fast generation of UUIDs used in the persistence."
+            },
+            "type": "typo3-flow-package",
+            "autoload": {
+                "psr-4": {
+                    "Neos\\Cqrs\\": "Classes"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "Lean and opinionated way to integrate CQRS pattern in your Flow framework package",
+            "time": "2016-09-27 11:10:45"
         },
         {
             "name": "neos/error-messages",
@@ -3117,6 +3148,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "neos/cqrs": 20,
         "typo3/buildessentials": 20,
         "flowpack/behat": 20
     },
