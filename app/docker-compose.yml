@@ -49,3 +49,8 @@ services:
       - "~/.composer/:/composer/"
     env_file:
       - "./.env"
+  mailcatcher:
+    image: "schickling/mailcatcher"
+    environment:
+      VIRTUAL_HOST: "mailcatcher.docker"
+      VIRTUAL_PORT: 1080
