@@ -1,10 +1,29 @@
 {
-    "name": "neos/flow-base-distribution",
+    "name": "simplyadmire/admi",
     "license": "MIT",
     "config": {
         "vendor-dir": "Packages/Libraries",
         "bin-dir": "bin"
     },
+    "authors": [
+        {
+            "name": "Simply Admire BV",
+            "email": "support@simplyadmire.com"
+        },
+        {
+            "name": "Lars Nieuwenhuizen",
+            "email": "lars.nieuwenhuizen@me.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "path",
+            "url": "src/*",
+            "options": {
+                "symlink": true
+            }
+        }
+    ],
     "require": {
         "typo3/flow": "^3.3",
         "neos/cqrs": "dev-master"
