@@ -1,2 +1,2 @@
 # Admi
-Keep your companies administration organized in one place
+Keep your company's administration organized in one place
