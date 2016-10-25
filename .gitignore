@@ -11,7 +11,7 @@
 
 /Data/
 /Packages/
-/src/*/Resources/Public/*
+/src/*
 /Web/
 /bin/
 !/bin/*.sh

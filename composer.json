@@ -22,17 +22,23 @@
             "options": {
                 "symlink": true
             }
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:SimplyAdmire/SimplyAdmire.Oversight.git"
         }
     ],
     "require": {
         "typo3/flow": "^3.3",
-        "neos/cqrs": "dev-master"
+        "neos/cqrs": "dev-master",
+        "simplyadmire/oversight": "@dev"
     },
     "require-dev": {
         "typo3/kickstart": "^3.3",
         "typo3/buildessentials": "3.3.x-dev",
         "flowpack/behat": "dev-master",
-        "phpunit/phpunit": "~4.8 || ~5.4.0",
+        "phpunit/phpunit": "^5.4",
+        "codeclimate/php-test-reporter": "^0.2.0",
         "mikey179/vfsstream": "~1.6"
     },
     "replace": {
